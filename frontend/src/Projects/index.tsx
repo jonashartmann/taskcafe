@@ -9,6 +9,7 @@ import {
   GetProjectsDocument,
   GetProjectsQuery,
 } from 'shared/generated/graphql';
+import FormInput from 'shared/components/FormInput';
 
 import { Link } from 'react-router-dom';
 import NewProject from 'shared/components/NewProject';

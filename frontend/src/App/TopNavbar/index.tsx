@@ -2,6 +2,7 @@ import React from 'react';
 import TopNavbar, { MenuItem } from 'shared/components/TopNavbar';
 import LoggedOutNavbar from 'shared/components/TopNavbar/LoggedOut';
 import { ProfileMenu } from 'shared/components/DropdownMenu';
+import polling from 'shared/utils/polling';
 import { useHistory, useRouteMatch } from 'react-router';
 import { useCurrentUser } from 'App/context';
 import { RoleCode, useTopNavbarQuery } from 'shared/generated/graphql';
