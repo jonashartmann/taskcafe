@@ -1,7 +1,7 @@
 version: "3"
 services:
   web:
-    image: taskcafe/taskcafe:latest
+    image: ghcr.io/jonashartmann/taskcafe:latest
     # build: .
     ports:
       - "3333:3333"
